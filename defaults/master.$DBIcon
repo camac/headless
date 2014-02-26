@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<imageresource name='$DBIcon' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.0' replicaid='CA257C8B003620A2' publicaccess='false'
+ designerversion='8.5.3' imagename='V:\Cameron\Desktop\Headless Icons\live.png'>
+<noteinfo noteid='172' unid='B2F7777CEA0E3C16CA257C8B0036ABA0' sequence='2'>
+<created><datetime dst='true'>20140226T205708,80+11</datetime></created>
+<modified><datetime dst='true'>20140226T215231,81+11</datetime></modified>
+<revised><datetime dst='true'>20140226T215231,80+11</datetime></revised>
+<lastaccessed><datetime dst='true'>20140226T215231,81+11</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140226T205708,84+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Cameron Gregor/O=JORD Engineers</name></updatedby>
+<wassignedby><name>CN=Cameron Gregor/O=JORD Engineers</name></wassignedby><jpeg
+>
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEOSURBVEhLrZaxEcIwDEWT7EHDAlRswSpMwyQU
+TEHFEsyRn5MvuSj6kix4BZhD+s+2UmR8fU9DxP19aas9j+unrThT++awdOD8tRIIwoiwwBNkNgj8
+MipIpgtOsS1gDZgqGyxrMQROuloozEYtCNOFvGMnSKYLSccm6EoXMo4mKKQLoWMRlNMF3zGenzf5
+rUimr7Bd6qdI6E0HrMUQFNIFs1ELyunCsd2+oj+iBWxWSY7txgnKDrPRvqKCg7VMbKpdDlaM8OUE
+PzqcdHy2Kyo7/HSwzaDgCNPBbshdjkw60E9R0pFMB1oAQkc+HdBXR5bCYNsyTiCwBhOnmApA0uGX
+eQIQOsKCQACciPiIwzADHo2LzR4zE34AAAAASUVORK5CYII=
+</jpeg>
+<item name='$FileSize' sign='true'><number>377</number></item>
+<item name='$MimeType' sign='true'><text>image/png</text></item>
+<item name='$FileModDT' sign='true'><datetime dst='true'>20140226T205613,59+11</datetime></item></imageresource>
+

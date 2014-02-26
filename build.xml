@@ -1,0 +1,61 @@
+<project name="Headless">
+
+	<property name="dominoDataDir" location="V:\DominoData" />
+	<property name="notesDataDir" location="H:\Notes\Data" />
+	<property name="nsfDir" location="com.gregorbyte.headless.nsf" />
+	<property name="dbPropsDir" location="defaults" />
+
+	<target name="saveDbProperties">
+
+		<fail unless="dbPropsName">dbPropsName</fail>
+
+		<mkdir dir="${dbPropsDir}" />
+
+		<copy overwrite="true" file="${nsfDir}/AppProperties/database.properties" tofile="${dbPropsDir}/${dbPropsName}.database.properties" />
+		<copy overwrite="true" file="${nsfDir}/AppProperties/$DBIcon" tofile="${dbPropsDir}/${dbPropsName}.$DBIcon" />
+		<copy overwrite="true" file="${nsfDir}/Resources/IconNote" tofile="${dbPropsDir}/${dbPropsName}.IconNote" />
+		<copy overwrite="true" file="${nsfDir}/Resources/Images/$DBIcon" tofile="${dbPropsDir}/${dbPropsName}.Images.$DBIcon" />
+
+	</target>
+
+	<target name="restoreDbProperties">
+
+		<fail unless="dbPropsName">dbPropsName</fail>
+
+		<copy overwrite="true" file="${dbPropsDir}/${dbPropsName}.database.properties" tofile="${nsfDir}/AppProperties/database.properties" />
+		<copy overwrite="true" file="${dbPropsDir}/${dbPropsName}.$DBIcon" tofile="${nsfDir}/AppProperties/$DBIcon" />
+		<copy overwrite="true" file="${dbPropsDir}/${dbPropsName}.IconNote" tofile="${nsfDir}/Resources/IconNote" />
+		<copy overwrite="true" file="${nsfDir}/Resources/Images/$DBIcon" tofile="${dbPropsDir}/${dbPropsName}.Images.$DBIcon" />
+
+	</target>
+
+	<target name="setTemplateName">
+
+		<delete file="result.properties">
+		</delete>
+
+		<xslt in="test.properties" out="result.properties" style="xsl/dbProps.xsl">
+			<param name="title" expression="Testing Title" />
+			<param name="templatename" expression="TestTemplateName" />
+		</xslt>
+
+	</target>
+
+	<target name="buildNsf">
+
+		<exec executable="powershell" timeout="300000" failonerror="true">
+			<arg line="-ExecutionPolicy bypass" />
+			<arg line="-File buildnsf.ps1" />
+		</exec>
+
+	</target>
+
+	<target name="copyToServer">
+		<copy file="${builtNsf}" tofile="${dominoDataDir}/Temp/HeadlessTemplate.nsf" />
+	</target>
+	
+	<target name="removeFromServer">
+		<delete file="${dominoDataDir}/Temp/HeadlessTemplate.nsf" failonerror="true" />
+	</target>
+
+</project>

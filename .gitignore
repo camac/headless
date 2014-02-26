@@ -10,3 +10,8 @@ xspdesign.properties
 
 # Dora Finish
 
+com.gregorbyte.headless.nsf/AppProperties/$DBIcon
+com.gregorbyte.headless.nsf/Resources/IconNote
+com.gregorbyte.headless.nsf/AppProperties/database.properties
+com.gregorbyte.headless.nsf/Resources/Images/$DBIcon
+com.gregorbyte.headless.nsf/Resources/Images/$DBIcon.metadata

@@ -1,0 +1,5 @@
+config,true,true
+importandbuild,V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project,Headless2
+wait,Headless2,20
+clean
+exit
