@@ -3,7 +3,7 @@ $checkout_location = "%system.teamcity.build.checkoutDir%"
  
 Clear-Content HEADLESS0.log
  
-$args = '-RPARAMS -vmargs -Dcom.ibm.designer.cmd="true,true,Headless4.nsf,importandbuild,V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project,Headless4.nsf"'
+$args = '-RPARAMS -vmargs -Dcom.ibm.designer.cmd="true,true,HeadJenk.nsf,importandbuild,C:\Jenkins\Jobs\Headless\workspace\com.gregorbyte.headless.nsf\.project,HeadJenk.nsf"'
  
 Write-Host $args
  

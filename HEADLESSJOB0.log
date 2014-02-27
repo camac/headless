@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="Cp1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+    <date>2014-02-26T10:56:18</date>
+    <millis>1393415778053</millis>
+    <sequence>6</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob</class>
+    <method>&lt;init&gt;</method>
+    <thread>2</thread>
+    <message>sequential job created</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:18</date>
+    <millis>1393415778074</millis>
+    <sequence>14</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob</class>
+    <method>run</method>
+    <thread>3</thread>
+    <message>sequential job: scheduling next: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:21</date>
+    <millis>1393415781783</millis>
+    <sequence>41</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.jobs.AssociateOnDiskWithNSFJob$NoUISyncAction$1</class>
+    <method>run</method>
+    <thread>4</thread>
+    <message>-- executing 21 syncOps</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:21</date>
+    <millis>1393415781924</millis>
+    <sequence>42</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.jobs.AssociateOnDiskWithNSFJob$NoUISyncAction$1</class>
+    <method>run</method>
+    <thread>4</thread>
+    <message>NoUISyncAction has postProcessing Jobs</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:21</date>
+    <millis>1393415781924</millis>
+    <sequence>43</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.SyncJobListener</class>
+    <method>getStateMonitor</method>
+    <thread>4</thread>
+    <message>job in SyncAction.class family</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:21</date>
+    <millis>1393415781924</millis>
+    <sequence>44</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.SyncJobListener</class>
+    <method>getStateMonitor</method>
+    <thread>4</thread>
+    <message>sync key=sync:Headless4.nsf</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782527</millis>
+    <sequence>66</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob$1</class>
+    <method>done</method>
+    <thread>4</thread>
+    <message>sequential job: job done: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782527</millis>
+    <sequence>67</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob$1</class>
+    <method>done</method>
+    <thread>4</thread>
+    <message>sequential job: job done, resched and get next: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782527</millis>
+    <sequence>68</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob</class>
+    <method>run</method>
+    <thread>7</thread>
+    <message>sequential job: scheduling next: cleaning up created projects(167)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782527</millis>
+    <sequence>69</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.jobs.CleanUpJob</class>
+    <method>run</method>
+    <thread>7</thread>
+    <message>cleanup job, run</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782527</millis>
+    <sequence>70</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.jobs.CleanUpJob</class>
+    <method>run</method>
+    <thread>7</thread>
+    <message>cleanup job, count = 1</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782527</millis>
+    <sequence>71</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.jobs.CleanUpJob</class>
+    <method>run</method>
+    <thread>7</thread>
+    <message>Removing project Headless4.nsf</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782601</millis>
+    <sequence>72</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.SyncJobListener</class>
+    <method>getStateMonitor</method>
+    <thread>6</thread>
+    <message>job in SyncAction.class family</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782601</millis>
+    <sequence>73</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.SyncJobListener</class>
+    <method>getStateMonitor</method>
+    <thread>6</thread>
+    <message>sync key=sync:Headless4.nsf</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782601</millis>
+    <sequence>75</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINE</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.SyncJobListener</class>
+    <method>done</method>
+    <thread>6</thread>
+    <message>+++ SYNC EVENT: DONE Updating timestamps(447) </message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782700</millis>
+    <sequence>80</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob$1</class>
+    <method>done</method>
+    <thread>7</thread>
+    <message>sequential job: job done: cleaning up created projects(167)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782700</millis>
+    <sequence>81</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob$1</class>
+    <method>done</method>
+    <thread>7</thread>
+    <message>sequential job: job done, resched and get next: cleaning up created projects(167)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782700</millis>
+    <sequence>82</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob</class>
+    <method>run</method>
+    <thread>7</thread>
+    <message>sequential job: scheduling next: Closing Userless Designer(168)</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:22</date>
+    <millis>1393415782701</millis>
+    <sequence>83</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.jobs.CloseDesignerJob</class>
+    <method>runInUIThread</method>
+    <thread>2</thread>
+    <message>closing designer</message>
+</record>
+<record>
+    <date>2014-02-26T10:56:24</date>
+    <millis>1393415784266</millis>
+    <sequence>87</sequence>
+    <logger>com.ibm.designer.headless.jobs</logger>
+    <level>FINER</level>
+    <class>com.ibm.designer.domino.tools.userlessbuild.controller.CommandLineJobManager$SequentialSchedulerJob$1</class>
+    <method>done</method>
+    <thread>2</thread>
+    <message>sequential job: job done: Closing Userless Designer(168)</message>
+</record>
+</log>

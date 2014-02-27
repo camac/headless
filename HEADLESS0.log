@@ -1,0 +1,95 @@
+sequential job created
+sequential job created
+Current Bundle: com.ibm.xsp.extlib:9.0.1.v00_00_20131004-1200
+automation state file does not exist, no previous jobs to resume: V:\DominoGit\Headless\HDState.jobs
+reading registry, found: com.ibm.designer.domino.tools.cmdprovider.file
+processing com.ibm.designer.cmd = true,true,Headless4.nsf,importandbuild,V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project,Headless4.nsf
+reading registry, found: com.ibm.designer.domino.tools.cmdprovider.line
+no path specified for command file
+reading registry, found: com.ibm.designer.domino.tools.jobprovider.default
+sequential job: scheduling next: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)
+sequential job: scheduling next: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=null
+-- executing 21 syncOps
+-- executing 21 syncOps
+NoUISyncAction has postProcessing Jobs
+NoUISyncAction has postProcessing Jobs
+job in SyncAction.class family
+job in SyncAction.class family
+sync key=sync:Headless4.nsf
+sync key=sync:Headless4.nsf
+getting monitor: sync:Headless4.nsf=null
+arming: sync:Headless4.nsf
+starting BuildProjectJob...
+arming: build:Headless4.nsf
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:6]
+getting monitor: build:Headless4.nsf=Monitor(1093288234) Armed
+checking state: Started
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:6]
+getting monitor: build:Headless4.nsf=Monitor(1093288234) Started
+++ BUILD COMPLETE: Monitor(1093288234) Started
+checking state: Completed
+StateMonitor  notifyAll....
+exiting BuildProjectJob
+build event PRE_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=Monitor(1093288234) Completed
+checking state: Started
+build event +++ POST_BUILD r:null [s:P/Headless4.nsf k:10]
+getting monitor: build:Headless4.nsf=Monitor(1093288234) Started
+++ BUILD COMPLETE: Monitor(1093288234) Started
+checking state: Completed
+StateMonitor  notifyAll....
+sequential job: job done: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)
+sequential job: job done: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)
+sequential job: job done, resched and get next: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)
+sequential job: job done, resched and get next: Importing ondisk V:\DominoGit\Headless\com.gregorbyte.headless.nsf\.project and creating NSF Headless4.nsf(166)
+sequential job: scheduling next: cleaning up created projects(167)
+sequential job: scheduling next: cleaning up created projects(167)
+cleanup job, run
+cleanup job, run
+cleanup job, count = 1
+cleanup job, count = 1
+Removing project Headless4.nsf
+Removing project Headless4.nsf
+job in SyncAction.class family
+job in SyncAction.class family
+sync key=sync:Headless4.nsf
+sync key=sync:Headless4.nsf
+getting monitor: sync:Headless4.nsf=Monitor(828584291) Armed
++++ SYNC EVENT: DONE Updating timestamps(447) 
++++ SYNC EVENT: DONE Updating timestamps(447) 
+checking state: Completed
+StateMonitor  notifyAll....
+build event PRE_BUILD r:null [s:org.eclipse.core.internal.resources.Workspace@5ae85ae8 k:9]
+build event +++ POST_BUILD r:null [s:org.eclipse.core.internal.resources.Workspace@5ae85ae8 k:9]
+sequential job: job done: cleaning up created projects(167)
+sequential job: job done: cleaning up created projects(167)
+sequential job: job done, resched and get next: cleaning up created projects(167)
+sequential job: job done, resched and get next: cleaning up created projects(167)
+sequential job: scheduling next: Closing Userless Designer(168)
+sequential job: scheduling next: Closing Userless Designer(168)
+closing designer
+closing designer
+build event PRE_BUILD r:null [s:org.eclipse.core.internal.resources.Workspace@5ae85ae8 k:9]
+build event +++ POST_BUILD r:null [s:org.eclipse.core.internal.resources.Workspace@5ae85ae8 k:9]
+sequential job: job done: Closing Userless Designer(168)
+sequential job: job done: Closing Userless Designer(168)
